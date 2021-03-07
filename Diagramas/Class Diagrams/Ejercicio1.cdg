@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio1">
+  <ClassDiagramComponents>
+    <Class name="Rectagulo" package="" visibility="public" xPosition="77.0" yPosition="37.0">
+      <Fields>
+        <Field name="longuitud" type="double" visibility="private"/>
+        <Field name="ancho" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getLonguitud" returnType="double" visibility="public"/>
+        <Method name="getAncho" returnType="double" visibility="public"/>
+        <Method name="setLonguitud" returnType="double" visibility="public">
+          <Argument type="double" name="longuitud"/>
+        </Method>
+        <Method name="setAncho" returnType="double" visibility="public">
+          <Argument type="double" name="ancho"/>
+        </Method>
+        <Method name="CalcularArea" returnType="double" visibility="public"/>
+        <Method name="CalcularPerimetro" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

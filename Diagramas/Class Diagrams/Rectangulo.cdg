@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Rectangulo">
+  <ClassDiagramComponents>
+    <Class name="Rectangulo" package="" visibility="public" xPosition="19.0" yPosition="3.0">
+      <Fields>
+        <Field name="longuitud" type="double" visibility="private"/>
+        <Field name="ancho" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getLonguitud" returnType="double" visibility="public"/>
+        <Method name="getAncho" returnType="double" visibility="public"/>
+        <Method name="setLonguitud" returnType="double" visibility="public">
+          <Argument type="double" name="longuitud"/>
+        </Method>
+        <Method name="setAncho" returnType="double" visibility="public">
+          <Argument type="double" name="ancho"/>
+        </Method>
+        <Method name="Calculararea" returnType="double" visibility="public"/>
+        <Method name="Calcularperimetro" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Coche" package="" visibility="public" xPosition="282.0" yPosition="25.0">
+      <Fields>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="numerodepuertas" type="int" visibility="private"/>
+        <Field name="caballos" type="int" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="int" visibility="private"/>
+        <Field name="matricula" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="getMatricula" returnType="String" visibility="public"/>
+        <Method name="getModelo" returnType="int" visibility="public"/>
+        <Method name="getNumerodepuertas" returnType="int" visibility="public"/>
+        <Method name="getCaballos" returnType="int" visibility="public"/>
+        <Method name="setColor" returnType="String" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="setMarca" returnType="String" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="setMatricula" returnType="String" visibility="public">
+          <Argument type="String" name="matricula"/>
+        </Method>
+        <Method name="setModelo" returnType="int" visibility="public">
+          <Argument type="int" name="modelo"/>
+        </Method>
+        <Method name="setNuemrodepuertas" returnType="int" visibility="public">
+          <Argument type="int" name="numerodepuertas"/>
+        </Method>
+        <Method name="setCaballos" returnType="int" visibility="public">
+          <Argument type="int" name="caballos"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Trangulo_isoscele" package="" visibility="public" xPosition="19.0" yPosition="286.0">
+      <Fields>
+        <Field name="base" type="double" visibility="private"/>
+        <Field name="altura" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBase" returnType="double" visibility="public"/>
+        <Method name="getAltura" returnType="double" visibility="public"/>
+        <Method name="setBase" returnType="double" visibility="public">
+          <Argument type="double" name="base"/>
+        </Method>
+        <Method name="setAltura" returnType="double" visibility="public">
+          <Argument type="double" name="altura"/>
+        </Method>
+        <Method name="Calculararea" returnType="double" visibility="public"/>
+        <Method name="Calcularperimetro" returnType="double" visibility="public"/>
+        <Method name="Calcularlonguitud" returnType="double" visibility="public"/>
+        <Method name="Calcularangulo" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Bicicleta" package="" visibility="public" xPosition="623.0" yPosition="25.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
